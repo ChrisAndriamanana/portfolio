@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+body
+{
+    
+    background-color: #1F1D2A;
+    font-family: poppins;
+    font-style: normal;
+    
+}
+
+header
+{
+    
+    padding-bottom: 135px;
+    background-color: #1F1D2A;
+    
+    /* Couleur du texte
+    background-image: url(img/pdc.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 685px;
+    background-position-y: 210px;
+    background-size: 575px;
+    padding-bottom: 135px;
+    */
+}
+
+
+#logo
+{
+    margin-top: 50px;
+    float: left;
+    width: 50px;
+}
+
+.header
+{
+    margin: 0px 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav
+{
+    margin-top: 50px;
+   display: inline-block;
+   text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a
+{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color:#0044F9;
+    transition-duration: 0.5s;
+}
+
+.presentation
+{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.presentation .presentation_poste
+{
+    position: relative;
+    right: 25%;
+}
+
+.presentation img
+{
+    position: relative;
+    width: 100%;
+    left: 98%;
+}
+
+.presentation .presentation_poste h1
+{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px  ;
+    z-index: 3;
+    
+}
+
+.presentation .presentation_poste p
+{
+    margin: 45px 0 45px 0;
+    color: white;
+    width: 37%;
+    text-align: justify;
+    line-height: 20px;
+    z-index: 2;
+}
+
+.presentation .moi
+{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+button
+{
+    padding: 15px 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #0044F9;
+    border: none;
+    outline: none;
+    border-radius: 40px 40px 40px 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+button:hover
+{
+    color: #0044F9 ;
+    border: 1px solid #0044F9;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.services
+{
+    width: 100%;
+    background-color:#272837;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services .bloc_page_services
+
+{
+    width: 70%;
+    margin: auto;
+}
+
+.services .description_services h3
+{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.services .description_services p
+{
+    line-height: 20px;
+    margin-top: auto;
+    margin-bottom: 95px;
+    color: white;
+    text-align: center;
+}
+
+
+.ico1, .ico2, .ico3
+{
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.services .colonne p
+{
+    line-height: 20px;
+    font-size: 15px;
+    width: 290px;
+}
+
+.services .colonne
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.services .colonne .ico1
+{
+    padding: 50px 10px 50px 30px;
+    background-color: #1F1D2A;
+    border-radius: 20px 20px 20px 20px;
+    transition-duration: 0.5s;
+}
+
+.services .colonne .ico1:hover
+{
+    background-color: #0044F9;
+}
+
+.services .colonne .ico2
+{
+    padding: 50px 10px 50px 30px;
+    background-color: #0044F9;
+    border-radius: 20px 20px 20px 20px;
+    transition-duration: 0.5s;
+}
+
+.services .colonne .ico2:hover
+{
+    background-color: #1F1D2A;
+}
+
+.services .colonne .ico3
+{
+    padding: 50px 10px 50px 30px;
+    background-color: #1F1D2A;
+    border-radius: 20px 20px 20px 20px;
+    transition-duration: 0.5s;
+}
+
+.services .colonne .ico3:hover
+{
+    background-color: #0044F9;
+}
+
+
+.about .bloc_page_about
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.about
+{
+    width: 100%;
+    background-color: #1F1D2A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about img
+{
+    border-radius: 20px 20px 20px 20px;
+    width: 450px;
+}
+
+.about .description_about
+{
+    color: white;
+}
+
+.about .description_about p
+{
+    margin-bottom: 30px;
+    margin-top: 0%;
+    line-height: 20px;
+    width: 500px;
+    text-align: justify;
+}
+
+.about .description_about h3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+hr
+{
+    border: 1.5px solid #272837;
+    margin: auto;
+    width: 30%;
+}
+
+.portfolio
+{
+    width: 100%;
+    background-color: #1F1D2A;
+}
+
+.portfolio .bloc_page_portfolio
+{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.portfolio .description_portfolio
+{
+    color: white;
+    text-align: center;
+}
+
+.portfolio .description_portfolio h3
+{
+    padding-top: 0px;
+    font-size: 45px;
+    width: 100%;
+    margin: auto;
+}
+
+.portfolio .description_portfolio p
+{
+    margin-top: 0px;
+}
+
+.portfolio .image_portfolio
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.portfolio .image_portfolio img
+{
+    width: 338px;
+    margin: 10px ;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.portfolio .image_portfolio img:hover
+{
+    filter: brightness(50%);
+}
+
+.portfolio .image_portfolio
+{
+    margin-bottom: 20px;
+}
+
+.portfolio a
+{
+    text-decoration: none;
+}
+
+.portfolio button
+{
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.contact
+{
+    width: 100%;
+    background-color: #272837;
+}
+
+.contact .bloc_page_contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    
+}
+
+.description_contact, .formulaire
+{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+
+.description_contact p
+{
+    margin: 0px 0px 10px 0px;
+    text-align: justify;
+    line-height: 20px;
+    width: 445px;
+}
+
+.contact .bloc_page_contact h3
+{
+    margin: 0px;
+    color: white;
+    font-size: 45px;
+}
+
+.contact .formulaire input
+{
+  width: 435px;
+}
+
+
+.contact ul li
+{
+  list-style: none;
+}
+
+.contact ul li .mailto
+{
+  color: white ;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.contact ul li .mailto:hover
+{
+  color:#0044F9 ;
+}
+
+.contact ul
+{
+  padding: 0px;
+}
+
+
+.contact img
+{
+  margin: 5px 5px 5px 0px;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.contact .formulaire input, textarea
+{
+  font-size: 15px ;
+  font-family: poppins;
+  font-style: normal;
+  color: white;
+  background-color: #1F1D2A;
+  border: none   ;
+  outline: 0px;
+  border-radius: 10px ;
+  margin: 5px 0 5px 0;
+  height: 50px;
+}
+
+#name::placeholder
+{
+  color: #323442;
+}
+
+#mail::placeholder
+{
+  color: #323442;
+}
+
+#message::placeholder
+{
+  color: #323442;
+}
+
+.contact .formulaire input, textarea
+{
+    padding-left: 20px;
+}
+
+.contact .formulaire textarea
+{
+    margin-bottom: 30px;
+    padding-top: 15px;
+    height: 270px;
+    width: 435px;
+    resize: none;
+}
+
+footer
+{
+    background-color: #1F1D2A;
+}
+
+footer .bloc_page_foot
+{
+    padding-bottom: 135px;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: center;
+}
+
+footer .bloc_page_foot
+{
+    padding-bottom: 135px;
+    padding-top: 135px;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: center;
+}
+
+footer .bloc_page_foot img
+{
+    width: 55px;
+}
+
+footer h1, p
+{
+    color: white;
+    margin: 0px;
+}
+
+footer .bloc_page_foot .RESO img
+{
+    margin: 10px 5px 0px 5px;
+    width: 30px;
+    vertical-align: middle;
+    transition-duration: 0.5s;
+}
+
+footer .bloc_page_foot .RESO img:hover
+{
+    filter: brightness(50%);
+}
+
+.copyright
+{
+    background-color: #272837; 
+}
+
+.copyright .bloc_page_copyright p
+{
+    font-size: 10px;
+}
+
+.bloc_page_copyright
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: center; 
+}
+
+
+
+
+
+
